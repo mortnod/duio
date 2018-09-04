@@ -107,7 +107,7 @@ var Analytics = {
 
   createEventTrackers: function(university) {
     if (university === 'uio') {
-      this.outboundEvent('Main Links', 'Fronter', '#js-track-fronter');
+      this.outboundEvent('Main Links', 'Canvas', '#js-track-canvas');
       this.outboundEvent('Main Links', 'Schedule', '#js-track-schedule');
       this.outboundEvent('Main Links', 'Print', '#js-track-print');
       this.outboundEvent('Main Links', 'Software Kiosk', '#js-track-software-kiosk');
